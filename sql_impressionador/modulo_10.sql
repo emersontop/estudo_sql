@@ -1,5 +1,5 @@
 --#############
--- Modulo 11 - Manipuladno textos e datas no SQL
+-- Modulo 10 - Manipuladno textos e datas no SQL
 
 -- Conteúdo:
 /*
@@ -108,7 +108,7 @@ SELECT FORMAT(5123, 'C')
 
 -- Formatação de datas
 
-SELECT FORMAT(CAST('23/04/2020' AS datetime),'dd/MMM/yy')
+SELECT FORMAT(CAST('23/04/2020' AS datetime),'dd/MMMM/yy')
 
 -- ##################
 -- CHARINDEX >> index de início de um caracter
